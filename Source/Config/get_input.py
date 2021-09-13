@@ -10,7 +10,5 @@ class GetInput():
     def __read_input_parameters(self):
         root_path = os.path.dirname(self.main_code_path)
         inputs = ReadJson.read_json_parameters(root_path)
-        print(inputs)
-        self.a = 2
-        self.b = 3
-        
+        for key, value in inputs.items():
+            setattr(self, key, value)        

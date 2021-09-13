@@ -10,6 +10,8 @@ from Source.Config.get_input import GetInput
 class Main(GetInput):
     def execute_workflow(self):
         print(self.a + self.b)
+        print(self.a * self.b)
+        print(self.a * self.a)
 
 my_code = Main(__file__)
 my_code.execute_workflow()

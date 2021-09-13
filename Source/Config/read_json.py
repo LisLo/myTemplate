@@ -10,7 +10,6 @@ class ReadJson():
             # Sonderzeichen koennen eingelesen werden
             with open(json_path, encoding = "utf-8") as json_path:
                 inputs = json.load(json_path)
-                print("read_jason " , inputs)
                 return inputs
         else:
             sys.exit("No Config.json found")
