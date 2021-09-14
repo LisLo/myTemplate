@@ -13,5 +13,6 @@ class Main(GetInput):
         print(self.a * self.b)
         print(self.a * self.a)
 
+
 my_code = Main(__file__)
 my_code.execute_workflow()
