@@ -11,5 +11,5 @@ class MyMethods():
     def substraction(a, b):
         return a - b
 
-    def square( a ):
+    def square(a):
         return math.pow(a, 2)
