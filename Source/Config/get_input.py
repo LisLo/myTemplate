@@ -11,4 +11,4 @@ class GetInput():
         root_path = os.path.dirname(self.main_code_path)
         inputs = ReadJson.read_json_parameters(root_path)
         for key, value in inputs.items():
-            setattr(self, key, value)        
+            setattr(self, key, value)
