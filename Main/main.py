@@ -9,6 +9,9 @@ from Source.Services.my_math_methods import MyMethods
 
 
 class Main(GetInput):
+    def __init__(self):
+        super().__init__(__file__)
+
     def execute_workflow(self):
         print("Addition:")
         print(MyMethods.addition(self.a, self.b))
@@ -20,5 +23,5 @@ class Main(GetInput):
         print(MyMethods.square(self.a))
 
 
-my_code = Main(__file__)
+my_code = Main()
 my_code.execute_workflow()
