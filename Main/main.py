@@ -1,4 +1,3 @@
-#from _typeshed import Self
 import os
 import sys
 # find root dir
